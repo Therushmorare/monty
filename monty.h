@@ -55,4 +55,7 @@ extern global_var global;
 /*delete comment*/
 void pall(stack_t **stack, unsigned int line_number);
 void f_stack(stack_t *head);
+void push(stack_t **stack, unsigned int line_number);
+
+
 #endif /* MONTY_H */

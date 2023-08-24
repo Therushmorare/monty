@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-global_var global = {NULL, NULL};
+global_var global = {NULL, NULL, NULL};
 /*delete comment*/
 
 /**

@@ -1,6 +1,7 @@
 #include "monty.h"
 
 global_var global = {NULL, NULL};
+/*delete comment*/
 
 /**
 * main - monty code interpreter

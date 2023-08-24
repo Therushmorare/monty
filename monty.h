@@ -3,6 +3,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <string.h>
+#include <ctype.h>
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
@@ -49,4 +54,5 @@ typedef struct global_var
 extern global_var global;
 
 void pall(stack_t **stack, unsigned int line_number);
+void f_stack(stack_t *head);
 #endif /* MONTY_H */

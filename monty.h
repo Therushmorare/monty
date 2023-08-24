@@ -52,7 +52,7 @@ typedef struct global_var
 	char *line;
 } global_var;
 extern global_var global;
-
+/*delete comment*/
 void pall(stack_t **stack, unsigned int line_number);
 void f_stack(stack_t *head);
 #endif /* MONTY_H */

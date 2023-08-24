@@ -34,5 +34,19 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/**
+ * struct global_var - global variables
+ * @file: file
+ * @line: line in file
+ *
+ * Description: global variables
+ */
+typedef struct global_var
+{
+	FILE *file;
+	char *line;
+} global_var;
+extern global_var global;
+
 void pall(stack_t **stack, unsigned int line_number);
 #endif /* MONTY_H */

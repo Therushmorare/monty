@@ -1,4 +1,6 @@
 #include "monty.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 global_var global = {NULL, NULL};
 /*delete comment*/

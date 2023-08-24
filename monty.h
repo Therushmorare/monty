@@ -43,19 +43,21 @@ typedef struct instruction_s
  * struct global_var - global variables
  * @file: file
  * @line: line in file
+ * @arg : arguments
  *
  * Description: global variables
  */
 typedef struct global_var
 {
+	char *arg;
 	FILE *file;
 	char *line;
 } global_var;
 extern global_var global;
-/*delete comment*/
+
 void pall(stack_t **stack, unsigned int line_number);
 void f_stack(stack_t *head);
 void push(stack_t **stack, unsigned int line_number);
-
+int execute(char *line, stack_t **stack, unsigned int counter, FILE *file);
 
 #endif /* MONTY_H */

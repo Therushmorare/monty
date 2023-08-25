@@ -57,7 +57,7 @@ extern global_var global;
 
 void pall(stack_t **stack, unsigned int line_number);
 void f_stack(stack_t *head);
-void push(stack_t **stack, unsigned int line_number);
+void push(stack_t **stack, unsigned int value);
 int execute(char *line, stack_t **stack, unsigned int counter, FILE *file);
 
 #endif /* MONTY_H */

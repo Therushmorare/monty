@@ -3,7 +3,7 @@
 /**
  * pint - prints element at the top of the stack
  * @stack: pointer to the stack
- * line_number: line number
+ * @line_number: line number
  *
  * Return: void
  */
@@ -23,7 +23,7 @@ void pint(stack_t **stack, unsigned int line_number)
 /**
  * pop - removes element at the top of the stack
  * @stack: pointer to the stack
- * line_number: line number
+ * @line_number: line number
  *
  * Return: void
  */
@@ -56,7 +56,7 @@ void pop(stack_t **stack, unsigned int line_number)
 /**
  * swap - swaps the two top elements of the stack
  * @stack: pointer to the stack
- * @line: line number
+ * @line_number: line number
  *
  * Return: void
  */
@@ -80,7 +80,7 @@ void swap(stack_t **stack, unsigned int line_number)
 /**
  * nop - does nothing
  * @stack: pointer to the stack
- * @line: line number
+ * @line_number: line number
  *
  * Return: void
  */

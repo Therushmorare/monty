@@ -14,6 +14,9 @@ int execute(char *line, stack_t **stack, unsigned int counter, FILE *file)
 	instruction_t oplist[] = {
 				{"push", push},
 				{"pall", pall},
+				{"pint", pint},
+				{"pop", pop},
+				{"nop", nop},
 				{NULL, NULL}
 				};
 	op = strtok(line, " \n\t");

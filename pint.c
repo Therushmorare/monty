@@ -42,7 +42,7 @@ void pop(stack_t **stack, unsigned int line_number)
 	if (temp->next != NULL)
 	{
 		(*stack) = temp->next;
-		temp->next->prev = NULL
+		temp->next->prev = NULL;
 	}
 	else
 	{

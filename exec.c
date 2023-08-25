@@ -18,6 +18,7 @@ int execute(char *line, stack_t **stack, unsigned int counter, FILE *file)
 				{"pop", pop},
 				{"add", add},
 				{"nop", nop},
+				{"swap", swap},
 				{NULL, NULL}
 				};
 	op = strtok(line, " \n\t");

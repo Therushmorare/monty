@@ -60,5 +60,8 @@ void pint(stack_t **stack, unsigned int line_number)
 void f_stack(stack_t *head);
 void push(stack_t **stack, unsigned int value);
 int execute(char *line, stack_t **stack, unsigned int counter, FILE *file);
+void add(stack_t **stack);
+void pop(stack_t **stack, unsigned int line_number);
+void nop(stack_t **stack, unsigned int line_number);
 
 #endif /* MONTY_H */

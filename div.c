@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * div - function that divs values to stack
+ * divide - function that divs values to stack
  * @stack: stack pointer
  * @line_number: number of lines in a file
  *
  * Return: nothing
  **/
 
-void div(stack_t **stack, unsigned int line_number)
+void divide(stack_t **stack, unsigned int line_number)
 {
 	stack_t *top_val;
 

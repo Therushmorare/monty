@@ -21,7 +21,7 @@ int execute(char *line, stack_t **stack, unsigned int counter, FILE *file)
 				{"swap", swap},
 				{"mul", mul},
 				{"mod", mod},
-				{"div", div},
+				{"div", divide},
 				{"sub", sub},
 				{NULL, NULL}
 				};
